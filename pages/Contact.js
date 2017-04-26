@@ -60,7 +60,7 @@ const SubTitle = styled.div`
   text-align: center;
   font-weight: 200;
   color: black;
-  letter-spacing: .5px;
+  letter-spacing: .6px;
   line-height: 1.6;
   ${mediaQuery.mobile`
     font-size: 17px;

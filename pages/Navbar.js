@@ -29,10 +29,10 @@ const NavbarItems = styled.div`
     display: inline-block
     padding: 0 40px;
     color: rgba(255, 255, 255, .45);
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     font-weight: 200;
     text-transform: uppercase;
-    font-size: .8rem;
+    font-size: .75rem;
     &:active{color: #fafafa;}
     ${mediaQuery.tablet`
       padding: 0 15px;

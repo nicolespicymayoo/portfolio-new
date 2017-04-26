@@ -11,7 +11,7 @@ export default class MyDocument extends Document {
         <meta name="description" content="Front-end Web Development and Responsive Web Design"/>
         <title>Nicole Mayo | Front-end Developer</title>
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300" rel="stylesheet"/>
-        <link href='https://fonts.googleapis.com/css?family=Lato:300,400,500,700' rel='stylesheet' />
+        <link href='https://fonts.googleapis.com/css?family=Lato:300,400,500' rel='stylesheet' />
         <style>{`
             html, body {
               font-family: Lato, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
