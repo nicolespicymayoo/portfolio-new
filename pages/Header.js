@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Navbar from './Navbar.js'
+import mediaQuery from '../helpers/mediaQuery'
 
 const Logo = (props) => (
   <svg {...props} viewBox="0 0 512 512">
@@ -22,9 +23,6 @@ const Header = () => (
       <LogoSubtitle>
         Front-End Web Development
       </LogoSubtitle>
-      {/*<HeaderSubtitle>
-        We love to create beautiful, functional websites & interfaces from scratch.
-      </HeaderSubtitle>*/}
     </HeaderContent>
     <Navbar />
   </HeaderContainer>
@@ -33,14 +31,12 @@ const Header = () => (
 export default Header
 
 const HeaderContainer = styled.div`
-  background-color: rgba(8,8,40, .96);
+  background-color: rgba(10,8,40, .96);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-//  moves div to top of page, behind navbar
-  top: 0;
   height: 350px;
   text-align: center;
   box-shadow: inset 0 0 100px 1px #080828;

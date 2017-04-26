@@ -2,9 +2,11 @@ import React from 'react'
 import styled from 'styled-components'
 import Header from './Header'
 import Portfolio from './Portfolio'
-import Services from './Services'
-import Contact from './Contact'
 import Skills from './Skills.js'
+import Services from './Services'
+import Quote from './Quote'
+import Contact from './Contact'
+
 
 export default () => (
   <Home id="home">
@@ -12,6 +14,7 @@ export default () => (
     <Portfolio/>
     <Skills/>
     <Services/>
+    <Quote/>
     <Contact/>
   </Home>
 )

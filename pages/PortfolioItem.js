@@ -45,7 +45,9 @@ const ImageContainer = styled.div`
   vertical-align: top;
   overflow: hidden;
   /*box-shadow: 0px 1px 7px 0px rgba(0,0,0,.04);*/
-  box-shadow: 1px 4px 20px 2px rgba(50,50,94,.09), 0 1px 2px rgba(0,0,0,.1);
+  box-shadow: 1px 4px 20px 2px rgba(50,50,94,.06);
+  border: 2px solid white;
+  border-top: none;
   &:hover{
       transform: scale(1.02);
       transition: all .2s;
@@ -89,7 +91,7 @@ const Image = styled.div`
 
 const Detail = styled.div`
   text-transform: uppercase;
-  padding: 30px 4px 0;
+  padding: 35px 4px 0;
   text-align: left;
   text-decoration: none;
   h3{

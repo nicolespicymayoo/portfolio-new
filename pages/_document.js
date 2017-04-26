@@ -9,8 +9,7 @@ export default class MyDocument extends Document {
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <meta name="description" content="Front-end Web Development and Responsive Web Design"/>
         <title>Nicole Mayo | Front-end Developer</title>
-        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,300" rel="stylesheet"/>
-        <link href='https://fonts.googleapis.com/css?family=Lora:400i' rel='stylesheet' />
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300" rel="stylesheet"/>
         <link href='https://fonts.googleapis.com/css?family=Lato:300,400,500,700' rel='stylesheet' />
         <style>{`
             html, body {

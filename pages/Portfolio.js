@@ -5,7 +5,7 @@ import SectionTitle from '../Components/SectionTitle'
 import PortfolioItem from './PortfolioItem'
 
 const Portfolio = () => (
-  <HomeSection id="portfolio">
+  <PortfolioContainer id="portfolio">
     <SectionTitle>Latest Work</SectionTitle>
     <PortfolioList>
       <PortfolioItem
@@ -27,11 +27,14 @@ const Portfolio = () => (
           websiteType="Small Business"
         />
     </PortfolioList>
-  </HomeSection>
+  </PortfolioContainer>
 )
 
 export default Portfolio
 
+const PortfolioContainer = styled(HomeSection)`
+  background-color: #f5f5f5;
+`
 
 const PortfolioList = styled.div`
   text-align: center;

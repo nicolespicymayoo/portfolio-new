@@ -10,6 +10,14 @@ const SectionTitle = styled.div`
   margin-bottom: 80px;
   color: rgba(0,0,0,.5);
   font-size: 26px;
+  &::after{
+  width: 50px;
+  height: 1px;
+  display: block;
+  background-color: rgba(0,0,0,.13);
+  content: "";
+  margin: 15px auto 0;
 `
 
 export default SectionTitle
+
