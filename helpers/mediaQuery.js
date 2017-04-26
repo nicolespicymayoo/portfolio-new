@@ -5,8 +5,8 @@ const sizes = {
   giant: 1170,
   desktop: 992,
   tablet: 768,
-  btwnTabletAndMobile: 685,
-  mobile: 450
+  mobile: 450,
+  smallMobile: 350
 }
 
 const mediaQuery = Object.keys(sizes).reduce((accumulator, label) => {

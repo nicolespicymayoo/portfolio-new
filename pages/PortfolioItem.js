@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import mediaQuery from '../helpers/mediaQuery'
 
 const PortfolioItem = ({ image, link, title, websiteType }) => (
   <PortfolioItemContainer id="portfolio">
@@ -10,7 +11,7 @@ const PortfolioItem = ({ image, link, title, websiteType }) => (
         <WindowButton></WindowButton>
         <WindowButton></WindowButton>
       </WindowBar>
-        <Image image={image}/>
+      <Image image={image}/>
     </ImageContainer>
 
     <Detail>
@@ -32,7 +33,14 @@ const PortfolioItemContainer = styled.div`
     &:hover{
       cursor: pointer;
     }
+    &:visited{color: inherit;}
   }
+  ${mediaQuery.tablet`
+      margin: 10px 20px 25px;
+  `}
+  ${mediaQuery.mobile`
+      margin: 10px 0px 50px;
+  `}
 `
 
 const ImageContainer = styled.div`
@@ -52,6 +60,14 @@ const ImageContainer = styled.div`
       transform: scale(1.02);
       transition: all .2s;
     }
+  ${mediaQuery.mobile`
+      height: 220px;
+      width: 300px;
+  `}
+  ${mediaQuery.smallMobile`
+      height: 200px;
+      width: 280px;
+  `}
 `
 
 const WindowBar = styled.div`
@@ -87,6 +103,10 @@ const Image = styled.div`
   border-top: 0;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
+   ${mediaQuery.mobile`
+      height: 200px;
+      width: 300px;
+  `}
 `
 
 const Detail = styled.div`
@@ -106,5 +126,8 @@ const Detail = styled.div`
     font-weight: 300;
     color: rgba(0,0,0,.8);
     padding-top: 18px;
+    ${mediaQuery.mobile`
+        font-size: .78em;
+    `}
   }
 `

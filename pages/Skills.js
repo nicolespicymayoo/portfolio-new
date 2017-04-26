@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import HomeSection from '../Components/HomeSection.js'
 import SectionTitle from '../Components/SectionTitle.js'
-
+import mediaQuery from '../helpers/mediaQuery'
 
 const Skills = () => (
   <HomeSection>
@@ -50,6 +50,12 @@ const SkillItem = styled.div`
   text-align: center;
   padding: 0 55px;
   margin: auto;
+  ${mediaQuery.tablet`
+      padding: 0 35px;
+  `}
+  ${mediaQuery.mobile`
+      padding: 10px 30px 50px;
+  `}
 `
 
 const SkillTitle = styled.div`

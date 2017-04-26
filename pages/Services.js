@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import HomeSection from '../Components/HomeSection'
 import SectionTitle from '../Components/SectionTitle'
+import mediaQuery from '../helpers/mediaQuery'
 
 //icons
 const CodeIcon = () => (
@@ -139,6 +140,10 @@ const ServiceItem = styled.div`
   border-radius: 3px;
   font-weight: 200;
   vertical-align: top;
+  ${mediaQuery.smallMobile`
+      width: 200px;
+      margin: 10px 0;
+  `}
 `
 const Icon = styled.div`
   margin-bottom: 20px;

@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import HomeSection from '../Components/HomeSection'
+import mediaQuery from '../helpers/mediaQuery'
 
 const Quote = () => (
   <HomeSection>
@@ -27,6 +28,9 @@ const Content = styled.div`
   max-width: 700px;
   text-align: center;
   margin: auto;
+  ${mediaQuery.mobile`
+      padding: 30px 0; 
+  `}
 `
 
 const QuoteItem = styled.div`
@@ -59,18 +63,26 @@ const QuoteAuthor = styled.div`
   font-size: 17px;
   font-weight: 200;
   margin-right: 3%;
+  ${mediaQuery.mobile`
+      padding-top: 5px; 
+  `}
 `
 
 const Text = styled.div`
   display: block;
   text-align: center;
-  font-size: 18px;
   font-weight: 200;
   margin: auto;
   letter-spacing: .5px;
   line-height: 1.8;
   font-size: 20px;
   max-width: 700px;
+  ${mediaQuery.tablet`padding: 0 50px;`}
+  ${mediaQuery.mobile`
+    padding: 10px;
+    font-size: 19px;
+  `}
+  ${mediaQuery.smallMobile`font-size: 17.3px;`}
   
 `
 

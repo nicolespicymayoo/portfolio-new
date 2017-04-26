@@ -50,13 +50,13 @@ const HeaderContent = styled.div`
 const LogoTitle = styled.div`
   text-align: center;
   text-transform: uppercase;
-  // color: #373B4C;
   color: rgba(255,255,255,.4);
   font-family: 'Josefin Sans';
   font-size: 36px;
   font-weight: 300;
   margin: 20px 0;
   letter-spacing: 1px;
+  ${mediaQuery.mobile`font-size: 30px;`}
 `
 
 const LogoSubtitle = styled.div`
@@ -67,34 +67,8 @@ const LogoSubtitle = styled.div`
   letter-spacing: 3px;
   font-weight: 100;
   margin-bottom: 20px;
-`
-
-const HeaderSubtitle = styled.div`
-  font-size: 1.05rem;
-  letter-spacing: 1.2px;
-  font-weight: 300;
-  padding-top: 7px;
-  padding-bottom: 43px;
-  color: rgba(255, 255, 255, .75);
-`
-
-const HeaderSkillsList = styled.div`
-  text-align: center;
-  li{
-    display: inline-block;
-    color: rgba(255, 255, 255, .8);
-    letter-spacing: .7px;
-    font-weight: 200;
-    text-transform: uppercase;
-    font-size: .8rem;
-  }
-  /*bullet divider*/
-  p{
-    display: inline-block;
-    color: rgba(255, 255, 255, .6);
-    margin: 0 0.4em;
-    margin: 0 15px;
-    position: relative;
-    top: -0.25em;
-  }
+  ${mediaQuery.mobile`
+    font-size: 16px;
+    line-height: 1.7;
+  `}
 `

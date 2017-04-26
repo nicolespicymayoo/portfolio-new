@@ -34,6 +34,8 @@ export default Portfolio
 
 const PortfolioContainer = styled(HomeSection)`
   background-color: #f5f5f5;
+  padding-left: 10px;
+  padding-right: 10px;
 `
 
 const PortfolioList = styled.div`

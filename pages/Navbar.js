@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import mediaQuery from '../helpers/mediaQuery'
 
 const Navbar = () => (
   <NavbarContianer>
@@ -26,12 +27,19 @@ const NavbarItems = styled.div`
     text-transform: uppercase;
     color: rgba(255,255,255,.6);
     display: inline-block
-    margin: 0 40px;
+    padding: 0 40px;
     color: rgba(255, 255, 255, .45);
     letter-spacing: 1px;
     font-weight: 200;
     text-transform: uppercase;
     font-size: .8rem;
     &:active{color: #fafafa;}
+    ${mediaQuery.tablet`
+      padding: 0 15px;
+    `}
+    ${mediaQuery.mobile`
+      font-size: .76em;
+      padding: 8px 10px;
+    `}
   }
 `

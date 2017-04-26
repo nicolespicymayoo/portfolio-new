@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import mediaQuery from '../helpers/mediaQuery'
 
 const SectionTitle = styled.div`
   text-align: center;
@@ -17,6 +18,7 @@ const SectionTitle = styled.div`
   background-color: rgba(0,0,0,.13);
   content: "";
   margin: 15px auto 0;
+  ${mediaQuery.mobile`margin-bottom: 50px;`}
 `
 
 export default SectionTitle

@@ -1,5 +1,6 @@
 import Document, { Head, Main, NextScript } from 'next/document'
 import styleSheet from 'styled-components/lib/models/StyleSheet'
+import mediaQuery from '../helpers/mediaQuery'
 
 export default class MyDocument extends Document {
   render () {
@@ -19,8 +20,10 @@ export default class MyDocument extends Document {
               color: #373b4c;
               margin: 0;
               height: 100%;
+              width: 100vw;
               font-smoothing: antialiased;
               scroll-behavior: smooth; 
+              ${mediaQuery.mobile`font-size: 15px;`}
             }
             p, h1, h2, h3 {
               margin: 0;
