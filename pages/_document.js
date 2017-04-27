@@ -3,6 +3,15 @@ import styleSheet from 'styled-components/lib/models/StyleSheet'
 import mediaQuery from '../helpers/mediaQuery'
 
 export default class MyDocument extends Document {
+  static async getInitialProps ({ renderPage }) {
+    const page = renderPage()
+    const styles = (
+      <style dangerouslySetInnerHTML={{ __html:
+        styleSheet.rules().map(rule => rule.cssText).join('\n')
+       }} />
+    )
+    return { ...page, styles }
+  }
   render () {
     return (
      <html>
