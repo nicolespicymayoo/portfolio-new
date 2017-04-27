@@ -17,7 +17,7 @@ const Quote = () => (
         <div>.</div>
         <div>.</div>
       </QuoteDivider>
-      <Text>We truly enjoy using new technologies to create beautiful websites. We strive to make the interwebz a more beautiful place, one site at a time.</Text>
+      <Text>I truly enjoy using new technologies to create beautiful websites. I strive to make the interwebz a more beautiful place, one site at a time.</Text>
     </Content>
   </HomeSection>
 )

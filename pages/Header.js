@@ -19,7 +19,7 @@ const Header = () => (
   <HeaderContainer>
     <HeaderContent>
       <Logo height="30px" width="30px" fill="#f5f5f5"/>
-      <LogoTitle>Code & Coffee</LogoTitle>
+      <LogoTitle>Nicole Mayo</LogoTitle>
       <LogoSubtitle>
         Front-End Web Development
       </LogoSubtitle>
@@ -55,7 +55,7 @@ const LogoTitle = styled.div`
   font-size: 36px;
   font-weight: 300;
   margin: 20px 0;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
   ${mediaQuery.mobile`font-size: 30px;`}
 `
 
