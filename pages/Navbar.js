@@ -8,7 +8,7 @@ const Navbar = () => (
       <a href="#header" style={{color: '#ffffff'}}>Home</a>
       <a href="#portfolio">Portfolio</a>
       <a href="#services">Services</a>
-      <a href="#services">Skills</a>
+      <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
     </NavbarItems>
   </NavbarContianer>
