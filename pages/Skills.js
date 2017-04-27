@@ -5,7 +5,7 @@ import SectionTitle from '../Components/SectionTitle.js'
 import mediaQuery from '../helpers/mediaQuery'
 
 const Skills = () => (
-  <HomeSection>
+  <HomeSection id="skills">
     <SectionTitle>
       Stack / Expertise
     </SectionTitle>
@@ -69,6 +69,7 @@ const SkillTitle = styled.div`
 const SkillBullet = styled.div`
   font-size: 18px;
   line-height: 2;
+  letter-spacing:.4px;
 `
 
 
