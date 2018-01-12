@@ -30,8 +30,23 @@ const Skills = () => (
         <SkillBullet>Responsiveness</SkillBullet>
         <SkillBullet>Mockups in Sketch</SkillBullet>
         <SkillBullet>UX importance</SkillBullet>
-        <SkillBullet>Clean / modern style</SkillBullet>
       </SkillItem>
+
+      {/* <SkillItem>
+        <SkillTitle>Elixir</SkillTitle>
+        <SkillBulletSmall>(newest skill)</SkillBulletSmall>
+        <SkillBullet>REST APIs</SkillBullet>
+        <SkillItem>
+          <SkillTitle>VR</SkillTitle>
+          <SkillBullet>just for fun ;)</SkillBullet>
+        </SkillItem>
+      </SkillItem> */}
+{/* 
+      <SkillItem>
+        <SkillTitle>VR</SkillTitle>
+        <SkillBullet>just for fun :D</SkillBullet>
+      </SkillItem> */}
+
     </SkillList>
   </HomeSection>
 )
@@ -61,7 +76,7 @@ const SkillItem = styled.div`
 const SkillTitle = styled.div`
   color: #6BB9F0;
   text-transform: uppercase;
-  margin-bottom: 16px;
+  margin: 16px 0px;
   letter-spacing: .8px;
   font-size: 18px;
   font-weight: 400;
@@ -70,6 +85,10 @@ const SkillBullet = styled.div`
   font-size: 18px;
   line-height: 2;
   letter-spacing:.4px;
+`
+
+const SkillBulletSmall = styled(SkillBullet)`
+  font-size: 12px;
 `
 
 

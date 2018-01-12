@@ -121,7 +121,7 @@ const Services = () => (
 export default Services
 
 const ServicesSection = styled(HomeSection)`
-  background-color: #f5f5f5;
+  background-color: #F6F8FA;
 `
 const ServiceList = styled.div`
   margin: auto;

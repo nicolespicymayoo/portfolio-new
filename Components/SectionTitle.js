@@ -8,7 +8,7 @@ const SectionTitle = styled.div`
   text-transform: uppercase;
   font-weight: 200;
   letter-spacing: 2px;
-  margin-bottom: 80px;
+  margin-bottom: 70px;
   color: rgba(0,0,0,.5);
   font-size: 26px;
   &::after{

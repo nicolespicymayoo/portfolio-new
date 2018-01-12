@@ -32,6 +32,7 @@ export default Header
 
 const HeaderContainer = styled.div`
   background-color: rgba(10,8,40, .96);
+  background-image: url("../static/purp-blue-space1.png")
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,7 +41,8 @@ const HeaderContainer = styled.div`
   height: 350px;
   text-align: center;
   box-shadow: inset 0 0 100px 1px #080828;
-  background: radial-gradient(#080828 76%, #080828 100%);
+  // background: radial-gradient(#080828 76%, #080828 100%);
+  background-position: 0 0;
 `
 
 const HeaderContent = styled.div`
