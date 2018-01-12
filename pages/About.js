@@ -76,11 +76,7 @@ const About = () => (
       <AboutText>
         <AboutSectionTitle>About</AboutSectionTitle>
         <AboutParagraph>
-          {/* Self-taught programmer, specializing in front-end web applications. Love building beautiful, usable, professional websites with great UX. Dislike writing about-me's. I quit hospitality work and spent two years building web apps and learning computer fundamentals. I work well with others. I'd love to chat with you about learning to code, or working for your awesome company.  */}
-
-
-        Self-taught developer, specializing in front-end web applications. I love to build beautiful, clean websites with intuitive UX. I quit hospitality work and spent two years building websites and learning computer fundamentals. If you're interested in learning to code, or are hiring at your awesome company, <a href="mailto:nicolemayobiz@gmail.com">let's chat</a>. 
-
+          Self-taught developer, specializing in front-end web applications. I love to build beautiful, clean websites with intuitive UX. I quit hospitality work and spent two years building websites and learning computer fundamentals. If you're interested in learning to code, or are hiring at your awesome company, <a href="mailto:nicolemayobiz@gmail.com">let's chat</a>. 
         </AboutParagraph>
       </AboutText>
       
@@ -130,8 +126,8 @@ const AboutSectionTitle = styled.div`
 
 const AboutParagraph = styled.div`
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: .2px;
+  line-height: 1.6;
+  letter-spacing: .28px;
   width: 400px;
   color: black;
   font-weight: 150;

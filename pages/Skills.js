@@ -13,7 +13,7 @@ const Skills = () => (
       <SkillItem>
         <SkillTitle>Javascript</SkillTitle>
         <SkillBullet>React.JS</SkillBullet>
-        <SkillBullet>MobX / Redux</SkillBullet>
+        <SkillBullet>Redux / MobX</SkillBullet>
         <SkillBullet>Webpack</SkillBullet>
         <SkillBullet>ES6</SkillBullet>     
       </SkillItem>
@@ -26,7 +26,7 @@ const Skills = () => (
       </SkillItem>
 
       <SkillItem>
-        <SkillTitle>Web Design</SkillTitle>
+        <SkillTitle>UI Design</SkillTitle>
         <SkillBullet>Responsiveness</SkillBullet>
         <SkillBullet>Mockups in Sketch</SkillBullet>
         <SkillBullet>UX importance</SkillBullet>
@@ -76,13 +76,13 @@ const SkillItem = styled.div`
 const SkillTitle = styled.div`
   color: #6BB9F0;
   text-transform: uppercase;
-  margin: 16px 0px;
+  margin: 15px 0px;
   letter-spacing: .8px;
-  font-size: 18px;
+  font-size: 19.2px;
   font-weight: 400;
 `
 const SkillBullet = styled.div`
-  font-size: 18px;
+  font-size: 17px;
   line-height: 2;
   letter-spacing:.4px;
 `

@@ -125,6 +125,7 @@ const EmailButton = styled.button`
 const Footer = styled.div`
   text-align: right;
   padding-bottom: 25px;
+  padding-right: 30px;
   color: rgba(0,0,0,.5);
   font-weight: 200;
   letter-spacing: .56px;

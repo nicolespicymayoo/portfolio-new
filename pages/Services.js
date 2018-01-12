@@ -81,19 +81,19 @@ const Services = () => (
       <ServiceItem>
         <Icon>{<CodeIcon />}</Icon>
         <Title>Web Development</Title>
-        <Description>We love to create beautiful, functional websites & interfaces from scratch.</Description>
+        <Description>Create your beautiful, functional websites & interfaces from scratch.</Description>
       </ServiceItem>
 
       <ServiceItem>
         <Icon>{<HeartBrowser/>}</Icon>
         <Title>UI / UX</Title>
-        <Description>Our web designs strive to create a beautiful place for your users.</Description>
+        <Description>Web designs that create a beautiful place for your users.</Description>
       </ServiceItem>
 
       <ServiceItem>
         <Icon>{<MobileIcon />}</Icon>
         <Title>Mobile Apps</Title>
-        <Description>Create mobile version of web apps using React Native</Description>
+        <Description>Create mobile version of your web app using React Native</Description>
       </ServiceItem>
 
       <ServiceItem>
@@ -105,13 +105,13 @@ const Services = () => (
       <ServiceItem>
         <Icon>{<ResponsiveIcon />}</Icon>
         <Title>Responsive Design</Title>
-        <Description>Stunning web designs that look great on desktop, mobile, and any screen in between.</Description>
+        <Description>Stunning web designs that look great on desktop, mobile, & any screen in between.</Description>
       </ServiceItem>
 
       <ServiceItem>
         <Icon>{<MaintenanceIcon />}</Icon>
         <Title>Maintenance</Title>
-        <Description>Keep your website, technology, and information up to date </Description>
+        <Description>Keep your website, technology, and information up to date. </Description>
       </ServiceItem>
 
     </ServiceList>
