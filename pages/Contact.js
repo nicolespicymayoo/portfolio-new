@@ -52,7 +52,7 @@ const Content = styled.div`
   background-color: #fff;
   max-width: 600px;
   margin: auto;
-  padding: 60px 80px;
+  padding: 60px 80px 50px;
   text-align: center;
   ${mediaQuery.tablet`
     padding: 60px 20px;

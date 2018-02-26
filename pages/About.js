@@ -76,7 +76,7 @@ const About = () => (
       <AboutText>
         <AboutSectionTitle>About</AboutSectionTitle>
         <AboutParagraph>
-          Self-taught developer, specializing in front-end web applications. I love to build beautiful, clean websites with intuitive UX. I quit hospitality work and spent two years building websites and learning computer fundamentals. If you're interested in learning to code, or are hiring at your awesome company, <a href="mailto:nicolemayobiz@gmail.com">let's chat</a>. 
+          Self-taught developer, specializing in front-end web applications. I love to build beautiful, funtional websites with intuitive UX. I quit hospitality work and spent two years building websites and learning computer fundamentals. If you're interested in learning to code, or are hiring at your awesome company, <a href="mailto:nicolemayobiz@gmail.com">let's chat</a>. 
         </AboutParagraph>
       </AboutText>
       
