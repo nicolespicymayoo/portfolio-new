@@ -13,9 +13,8 @@ const Skills = () => (
       <SkillItem>
         <SkillTitle>Javascript</SkillTitle>
         <SkillBullet>React.JS</SkillBullet>
-        <SkillBullet>Redux / MobX</SkillBullet>
-        <SkillBullet>Webpack</SkillBullet>
-        <SkillBullet>ES6</SkillBullet>     
+        <SkillBullet>Typescript</SkillBullet>
+        <SkillBullet>REST APIs</SkillBullet>    
       </SkillItem>
 
       <SkillItem>
@@ -28,25 +27,9 @@ const Skills = () => (
       <SkillItem>
         <SkillTitle>UI Design</SkillTitle>
         <SkillBullet>Responsiveness</SkillBullet>
-        <SkillBullet>Mockups in Sketch</SkillBullet>
+        <SkillBullet>Sketch</SkillBullet>
         <SkillBullet>UX importance</SkillBullet>
       </SkillItem>
-
-      {/* <SkillItem>
-        <SkillTitle>Elixir</SkillTitle>
-        <SkillBulletSmall>(newest skill)</SkillBulletSmall>
-        <SkillBullet>REST APIs</SkillBullet>
-        <SkillItem>
-          <SkillTitle>VR</SkillTitle>
-          <SkillBullet>just for fun ;)</SkillBullet>
-        </SkillItem>
-      </SkillItem> */}
-{/* 
-      <SkillItem>
-        <SkillTitle>VR</SkillTitle>
-        <SkillBullet>just for fun :D</SkillBullet>
-      </SkillItem> */}
-
     </SkillList>
   </HomeSection>
 )

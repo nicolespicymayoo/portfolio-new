@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import mediaQuery from '../helpers/mediaQuery'
 
-const PortfolioItem = ({ image, link, title, websiteType }) => (
+const PortfolioItemWeb = ({ image, link, title, websiteType }) => (
   <PortfolioItemContainer id="portfolio">
     <a target="_blank" href={link}>
     <ImageContainer>
@@ -23,7 +23,7 @@ const PortfolioItem = ({ image, link, title, websiteType }) => (
 
 )
 
-export default PortfolioItem
+export default PortfolioItemWeb
 
 const PortfolioItemContainer = styled.div`
   margin: 5px 30px;
