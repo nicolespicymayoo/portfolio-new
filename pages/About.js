@@ -157,7 +157,7 @@ const Picture = styled.div`
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, .1);
   background-image: url("../static/about_pic.png");
-  background-position: -10px -2px ;
+  background-position: -13px -2px ;
   background-size: 122%;
   transform: rotate(15deg);
   overflow: hidden;

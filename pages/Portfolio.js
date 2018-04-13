@@ -108,7 +108,7 @@ const Portfolio = () => (
         <PortfolioItem> 
           <Icon><SearchIcon/></Icon>
           <Title>Where can I eat?</Title>
-           <Description>Helps people with allergies or diet restrictions find places to eat.</Description>
+           <Description>App to help people with allergies or diet restrictions find places to eat.</Description>
         </PortfolioItem>
       </a>
     </PortfolioList>
