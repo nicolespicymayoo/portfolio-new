@@ -14,10 +14,6 @@ const KeyIcon = () => (
       height: '12px',
       width: '14px',
       fill: '#6bb9f0',
-      paddingTop: '0px',
-      paddingLeft: '3px',
-      paddingBottom: '0px',
-      paddingRight: '3px'
     }}
   >
     <g>
@@ -43,10 +39,6 @@ const SearchIcon = () => (
       height: '10.5px',
       width: '11px',
       fill: '#6bb9f0',
-      paddingTop: '0px',
-      paddingLeft: '5px',
-      paddingBottom: '0px',
-      paddingRight: '5px',
       overflow: 'visible'
     }}
   >
@@ -118,6 +110,7 @@ const Portfolio = () => (
 export default Portfolio
 
 const PortfolioContainer = styled(HomeSection)`
+width: 100vw;
   background-color: #f6f8fa;
   padding-left: 10px;
   padding-right: 10px;
@@ -144,7 +137,9 @@ const PortfolioItem = styled.div`
   text-align: left;
   background-color: #fff;
   padding: 24px;
-  width: 230px;
+  width: 290px;
+  /* height: 120px; */
+  vertical-align: top;
   margin: 80px 40px 50px;
   border-radius: 5px;
   font-size: 17px;
@@ -157,16 +152,15 @@ const PortfolioItem = styled.div`
     transition: all 0.2s;
   }
   ${mediaQuery.mobile`
-    margin-top: 50px;
+    margin: 30px auto 20px;
   `};
 `
 
 const Icon = styled.div`
   display: inline;
-  /* background-color: #6bb9f0; */
-  /* padding: 0px 3px; */
+  padding: 0px 4px;
   margin-right: 8px;
-  border-radius: 50%;
+  border-radius: 60px;
   border: 1px solid #6bb9f0;
 `
 

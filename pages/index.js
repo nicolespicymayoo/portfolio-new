@@ -5,7 +5,6 @@ import About from './About'
 import Portfolio from './Portfolio'
 import Skills from './Skills.js'
 import Services from './Services'
-import Quote from './Quote'
 import Contact from './Contact'
 
 

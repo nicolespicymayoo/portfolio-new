@@ -41,8 +41,13 @@ const HeaderContainer = styled.div`
   height: 350px;
   text-align: center;
   box-shadow: inset 0 0 100px 1px #080828;
-  // background: radial-gradient(#080828 76%, #080828 100%);
   background-position: 0 0;
+  width: 100%;
+  margin: 0px;
+  min-width: 320px;
+  ${mediaQuery.mobile`
+    padding: 30px 0;
+  `}
 `
 
 const HeaderContent = styled.div`

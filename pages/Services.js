@@ -81,31 +81,31 @@ const Services = () => (
       <ServiceItem>
         <Icon>{<CodeIcon />}</Icon>
         <Title>Web Development</Title>
-        <Description>Create your beautiful, functional websites & interfaces from scratch.</Description>
+        <Description>Create beautiful, functional websites & interfaces from scratch.</Description>
       </ServiceItem>
 
       <ServiceItem>
         <Icon>{<HeartBrowser/>}</Icon>
         <Title>UI / UX</Title>
-        <Description>Web designs that create a beautiful place for your users.</Description>
+        <Description>Modern, sleek minimal designs with a great user experience.</Description>
       </ServiceItem>
 
       <ServiceItem>
         <Icon>{<MobileIcon />}</Icon>
         <Title>Mobile Apps</Title>
-        <Description>Create mobile version of your web app using React Native</Description>
+        <Description>Create mobile apps app using React Native</Description>
       </ServiceItem>
 
       <ServiceItem>
         <Icon>{<DeployIcon />}</Icon>
         <Title>Deployment</Title>
-        <Description>Set up your dream site on your favorite (availible) domain name</Description>
+        <Description>Set up your dream site on your favorite (available) domain name</Description>
       </ServiceItem>
 
       <ServiceItem>
         <Icon>{<ResponsiveIcon />}</Icon>
         <Title>Responsive Design</Title>
-        <Description>Stunning web designs that look great on desktop, mobile, & any screen in between.</Description>
+        <Description>Stunning products that look great on desktop, mobile, & any screen in between.</Description>
       </ServiceItem>
 
       <ServiceItem>
@@ -132,18 +132,24 @@ const ServiceItem = styled.div`
   display: inline-block;
   background-color: #fff;
   padding: 35px;
-  width: 230px;
-  height: 150px;
   margin: 10px;
+  width: 300px;
+  height: 220px;
   text-align: center;
   color: #666666;
   border-radius: 3px;
   font-weight: 200;
   vertical-align: top;
+  ${mediaQuery.mobile`
+      padding: 28px;
+      margin: 10px 0px;
+      width: 300px;
+  `} 
   ${mediaQuery.smallMobile`
-      width: 200px;
-      margin: 10px 0;
-  `}
+      padding: 20px;
+      margin: 10px 0px;
+      width: 260px;
+  `};
 `
 const Icon = styled.div`
   margin-bottom: 20px;

@@ -26,7 +26,7 @@ const NavbarItems = styled.div`
     text-decoration: none;
     text-transform: uppercase;
     color: rgba(255,255,255,.6);
-    display: inline-block
+    display: inline-block;
     padding: 0 40px;
     color: rgba(255, 255, 255, .45);
     letter-spacing: 1.5px;

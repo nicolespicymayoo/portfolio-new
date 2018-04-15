@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import HomeSection from '../Components/HomeSection'
 import SectionTitle from '../Components/SectionTitle'
+import mediaQuery from '../helpers/mediaQuery'
 
 
 const LocationIcon = (props) => (
@@ -73,12 +74,12 @@ const GitIcon = (props) => (
 
 const About = () => (
   <HomeSectionAbout>
-      <AboutText>
+      <AboutTextContainer>
         <AboutSectionTitle>About</AboutSectionTitle>
         <AboutParagraph>
           Self-taught programmer, specializing in front-end applications. I love to build beautiful, funtional websites with intuitive UX. I quit hospitality work and spent two years building websites and learning computer fundamentals. If you're interested in learning to code, or are hiring at your awesome company, <a href="mailto:nicolemayobiz@gmail.com">let's chat</a>. 
         </AboutParagraph>
-      </AboutText>
+      </AboutTextContainer>
       
       <AboutDetails>
         <PictureBorder><Picture /></PictureBorder>
@@ -103,14 +104,25 @@ export default About
 
 const HomeSectionAbout = styled(HomeSection)`
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: top;
+  ${mediaQuery.tablet`
+      flex-direction: column-reverse;
+      justify-content: center;
+  `};
 `
 
-const AboutText = styled.div`
+const AboutTextContainer = styled.div`
   width: 40%;
   text-align: left;
   align-items: top;
+  margin: auto;
+  ${mediaQuery.tablet`
+      width: 60%;
+  `};
+  ${mediaQuery.mobile`
+      width: 90%;
+  `};
 `
 
 const AboutSectionTitle = styled.div`
@@ -128,7 +140,6 @@ const AboutParagraph = styled.div`
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: .28px;
-  width: 400px;
   color: black;
   font-weight: 150;
   a{
@@ -141,35 +152,44 @@ const AboutParagraph = styled.div`
     color: black;
   }
 `
-const PictureBorder= styled.div`
+const AboutDetails = styled.div`
+  align-items: top;
+  margin: auto;
+  ${mediaQuery.tablet`
+      margin-bottom: 65px;
+  `};
+`
+
+const PictureBorder = styled.div`
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  background-color: #EFF2F6;
+  background-color: #eff2f6;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: auto;
+  
 `
 
 const Picture = styled.div`
   height: 180px;
   width: 180px;
   border-radius: 50%;
-  border: 1px solid rgba(0, 0, 0, .1);
-  background-image: url("../static/about_pic.png");
-  background-position: -13px -2px ;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-image: url('../static/about_pic.png');
+  background-position: -13px -2px;
   background-size: 122%;
   transform: rotate(15deg);
   overflow: hidden;
 `
 
-const AboutDetails = styled.div`
-  align-items: top;
-`
-
 const DetailList = styled.div`
   margin-top: 16px;
   text-align: center;
+  ${mediaQuery.tablet`
+      border-bottom: 40px;
+  `};
 `
 
 const DetailItem = styled.div`
@@ -189,4 +209,5 @@ const DetailText = styled.div`
   font-size: 13px;
   font-weight: 100;
   padding-left: 3px;
+
 `
