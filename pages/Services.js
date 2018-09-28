@@ -126,6 +126,7 @@ const ServicesSection = styled(HomeSection)`
 const ServiceList = styled.div`
   margin: auto;
   text-align: center;
+  max-width: 1000px;
 `
 
 const ServiceItem = styled.div`

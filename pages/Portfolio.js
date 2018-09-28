@@ -74,7 +74,7 @@ const Portfolio = () => (
       />
       <PortfolioItemWeb
         image={'../static/portfolio.png'}
-        link="https://jjartproduction.com/"
+        link="https://jjart.shop/"
         title="JJ Art Productions"
         websiteType="Portfolio"
       />
@@ -86,11 +86,11 @@ const Portfolio = () => (
       />
     </PortfolioList>
     <PortfolioList>
-      <a target="_blank" href="https://github.com/nicolespicymayoo/lob-elixir">
+      <a target="_blank" href="https://github.com/nicolespicymayoo/kanban">
         <PortfolioItem>
           <Icon><KeyIcon/></Icon>
-          <Title>Lob Client</Title>
-          <Description>Client for Lob API service, coded in Elixir.</Description>
+          <Title>Kanban</Title>
+          <Description>Simplified Trello service. Built with Typescript, Express, and PosgreSQL.</Description>
         </PortfolioItem>
       </a>
       <a
@@ -99,8 +99,8 @@ const Portfolio = () => (
       >
         <PortfolioItem> 
           <Icon><SearchIcon/></Icon>
-          <Title>Where can I eat?</Title>
-           <Description>App to help people with allergies or diet restrictions find places to eat.</Description>
+          <Title>Gluten-free near me</Title>
+           <Description>App to help people with food allergies or diet restrictions find places to eat.</Description>
         </PortfolioItem>
       </a>
     </PortfolioList>

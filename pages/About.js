@@ -132,23 +132,22 @@ const AboutSectionTitle = styled.div`
   font-weight: 200;
   letter-spacing: 2px;
   margin-bottom: 40px;
-  color: rgba(0,0,0,.5);
+  color: rgba(0, 0, 0, 0.5);
   font-size: 26px;
 `
 
 const AboutParagraph = styled.div`
   font-size: 16px;
   line-height: 1.6;
-  letter-spacing: .28px;
+  letter-spacing: 0.28px;
   color: black;
   font-weight: 150;
-  a{
+  a {
     color: black;
     text-decoration-style: solid;
-    text-decoration-color: rgba(0,0,0,.2);
-
+    text-decoration-color: rgba(0, 0, 0, 0.2);
   }
-  a:visited{
+  a:visited {
     color: black;
   }
 `

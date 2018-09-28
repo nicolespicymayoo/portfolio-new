@@ -21,7 +21,7 @@ const Header = () => (
       <Logo height="30px" width="30px" fill="#f5f5f5"/>
       <LogoTitle>Nicole Mayo</LogoTitle>
       <LogoSubtitle>
-        Software Development
+        Frontend Development
       </LogoSubtitle>
     </HeaderContent>
     <Navbar />

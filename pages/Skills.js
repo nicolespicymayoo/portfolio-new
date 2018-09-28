@@ -11,25 +11,32 @@ const Skills = () => (
     </SectionTitle>
     <SkillList>
       <SkillItem>
-        <SkillTitle>Javascript</SkillTitle>
+        <SkillTitle>Frontend</SkillTitle>
         <SkillBullet>React.JS</SkillBullet>
         <SkillBullet>Typescript</SkillBullet>
-        <SkillBullet>REST APIs</SkillBullet>    
+        <SkillBullet>RESTful APIs</SkillBullet>    
       </SkillItem>
 
       <SkillItem>
         <SkillTitle>CSS</SkillTitle>
-        <SkillBullet>SASS</SkillBullet>
+        <SkillBullet>SCSS</SkillBullet>
         <SkillBullet>CSS Modules</SkillBullet>
         <SkillBullet>Styled Components</SkillBullet>
       </SkillItem>
 
       <SkillItem>
         <SkillTitle>UI Design</SkillTitle>
-        <SkillBullet>Responsiveness</SkillBullet>
+        <SkillBullet>Responsive design</SkillBullet>
+        <SkillBullet>UX sensibilities</SkillBullet>
         <SkillBullet>Sketch</SkillBullet>
-        <SkillBullet>UX importance</SkillBullet>
       </SkillItem>
+
+      <SkillItem>
+        <SkillTitle>Backend</SkillTitle>
+        <SkillBullet>Express.js</SkillBullet>
+        <SkillBullet>PostgreSQL</SkillBullet>
+      </SkillItem>
+
     </SkillList>
   </HomeSection>
 )
@@ -39,6 +46,7 @@ export default Skills
 const SkillList = styled.div`
   margin: auto;
   text-align: center;
+  max-width: 900px;
 `
 
 const SkillItem = styled.div`
@@ -46,10 +54,10 @@ const SkillItem = styled.div`
   vertical-align: top;
   font-weight: 100;
   text-align: center;
-  padding: 0 55px;
+  padding: 0 35px;
   margin: auto;
   ${mediaQuery.tablet`
-      padding: 0 35px;
+      padding: 0 35px 50px;
   `}
   ${mediaQuery.mobile`
       padding: 10px 30px 50px;
